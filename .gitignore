@@ -1,0 +1,14 @@
+# Gradle
+**/.gradle/
+**/build/
+
+# STS/Eclipse
+**/.classpath
+**/.project
+**/.springBeans
+**/.settings/
+
+# IDEA
+**/.idea/
+**/.iml
+**/out/

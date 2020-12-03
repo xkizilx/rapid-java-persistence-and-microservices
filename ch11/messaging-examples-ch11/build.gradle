@@ -1,24 +1,11 @@
 plugins {
     id 'org.springframework.boot' version '2.1.3.RELEASE'
-    id 'java'
 }
 
 apply plugin: 'io.spring.dependency-management'
 
-java {
-    group = 'com.example'
-    version = '1.0'
-    sourceCompatibility = JavaVersion.VERSION_1_8
-    targetCompatibility = JavaVersion.VERSION_1_8
-}
-
 bootJar {
-    archiveBaseName = 'messaging-example'
-    version =  '1.0'
-}
-
-repositories {
-    mavenCentral()
+    archivesBaseName = 'messaging-example'
 }
 
 dependencies {
